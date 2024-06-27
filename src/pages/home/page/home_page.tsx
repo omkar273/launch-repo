@@ -73,9 +73,38 @@ const HomePage = () => {
           />
           Join on WhatsApp
         </a>
-        <p className="text-sm text-gray-300">
+        <p className="text-sm text-gray-300 mb-4">
           For more updates, join us on WhatsApp!
         </p>
+
+        <div className="flex space-x-4">
+          <a
+            href="http://instagram.com/caygnus/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-lg shadow-lg transition duration-300"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" // Replace with your Instagram logo image URL
+              alt="Instagram Logo"
+              className="w-8 h-8 mr-3"
+            />
+            Follow on Instagram
+          </a>
+          <a
+            href="http://linkedin.com/company/caygnus/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-lg shadow-lg transition duration-300"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" // Replace with your LinkedIn logo image URL
+              alt="LinkedIn Logo"
+              className="w-8 h-8 mr-3"
+            />
+            Connect on LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   );
