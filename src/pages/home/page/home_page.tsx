@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 
 const HomePage = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-07-01T12:00:00") - +new Date();
+    const difference = +new Date("2024-07-01T16:00:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
