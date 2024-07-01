@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ErrorPage from "./pages/error/error_page";
 import HomePage from "./pages/home/page/home_page";
 
 const App = () => {
@@ -8,7 +7,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
 
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="*" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );
