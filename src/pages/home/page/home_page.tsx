@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 
 const HomePage = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-07-01T16:00:00") - +new Date();
+    const difference = +new Date("2024-10-28T16:00:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -48,12 +48,12 @@ const HomePage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-blue-500 text-white p-4">
       <img
-        src="http://nikya.in/caygnus.png"
+        src="/assets/caygnus-logo.png"
         alt="Logo"
         className="w-320 h-32 mb-4 animate-bounce"
       />
       <h1 className="text-5xl font-bold mb-8 animate-fade-in-down">
-        CAYGNUS Launching Soon....
+        Caygnus Interns Launching Soon....
       </h1>
       <div className="flex justify-center mb-8 space-x-4">
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
